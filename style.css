@@ -1,0 +1,24 @@
+/*
+Theme Name: WPMetaTheme
+Author: DK
+Version: 0.1
+*/
+
+/* style.css - Site css files, includes tags to identify the theme (used when selecting a theme from the WP adming screen) 
+	 This file is added to the page by from the functions.php
+*/
+
+body{ 
+	margin: 0px;	
+	color: #333;
+}
+
+.post-list{
+	margin: 10px 0px;
+}
+
+.post{
+	border-bottom: 1px solid #33F;
+	padding: 10px;
+	background-color: #CCC;
+}
