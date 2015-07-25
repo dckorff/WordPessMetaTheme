@@ -9,16 +9,49 @@ Version: 0.1
 */
 
 body{ 
-	margin: 0px;	
 	color: #333;
+	margin: 0px;
+	padding: 0px 20px;
 }
 
-.post-list{
+
+/* Styles for Header and Footer menus */
+header nav .menu-header-menu-container ul,
+footer nav .menu-footer-menu-container ul {
+	border-bottom: 1px solid grey;
+	list-style-type: none;
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0px;  
+}
+
+header nav .menu-header-menu-container ul li,
+footer nav .menu-footer-menu-container ul li {
+	background-color: grey;
+	display: inline-block;
+  padding: 10px;  
+}
+
+header nav .menu-header-menu-container ul li:hover,
+header nav .menu-header-menu-container ul li.current-menu-item,  /* class "current-menu-item" is added by WP when on the page for this link */
+footer nav .menu-footer-menu-container ul li:hover
+footer nav .menu-footer-menu-container ul li.current-menu-item {
+	background-color: #999;
+}
+
+header nav .menu-header-menu-container ul li a,
+footer nav .menu-footer-menu-container ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+.post-list {
 	margin: 10px 0px;
 }
 
-.post{
+.post {
 	border-bottom: 1px solid #33F;
 	padding: 10px;
-	background-color: #CCC;
+	background-color: #EEE;
 }
